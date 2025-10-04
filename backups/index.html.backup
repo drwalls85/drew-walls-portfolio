@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drew Walls - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        section { opacity: 0; transform: translateY(30px); transition: opacity 0.8s ease, transform 0.8s ease; }
+        section.visible { opacity: 1; transform: translateY(0); }
+        .hero { background-attachment: fixed; }
+        .timeline-item, .card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .timeline-item:hover, .card:hover { transform: translateY(-8px); box-shadow: 0 12px 24px rgba(74, 144, 226, 0.2); }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img src="images/profile.jpeg" alt="Drew Walls" class="profile-photo">
+            <h1>Drew Walls</h1>
+            <h2>Transforming Retail Through Customer-Centric Innovation</h2>
+            <p>15+ Years Driving SaaS, BPO/CX, and Enterprise Growth for Fortune 100 Brands</p>
+            <p>As Steve Jobs said, "You've got to start with the customer experience and work back toward the technology." That's been my guiding principle in revolutionizing retail.</p>
+            <a href="#experience" class="cta">Explore My Journey</a>
+        </div>
+    </header>
+
+    <section id="partners" class="partners">
+        <div class="container">
+            <h2>Collaborating with Industry Leaders</h2>
+            <p>Supporting top retailers and brands in CX transformations, from in-store activations to global SaaS partnerships.</p>
+            <div class="logo-grid">
+                <img src="images/logos/walmart.png" alt="Walmart">
+                <img src="images/logos/sams-club.png" alt="Sam's Club">
+                <img src="images/logos/amazon.png" alt="Amazon">
+                <img src="images/logos/teleperformance.png" alt="Teleperformance">
+                <img src="images/logos/albertsons.png" alt="Albertsons">
+                <img src="images/logos/sony.png" alt="Sony">
+                <img src="images/logos/ea-sports.svg" alt="EA Sports">
+                <img src="images/logos/take-two.svg" alt="Take-Two Interactive">
+                <img src="images/logos/disney.png" alt="Disney">
+                <img src="images/logos/campbells.png" alt="Campbell’s">
+                <img src="images/logos/t-mobile.png" alt="T-Mobile">
+                <img src="images/logos/samsung.png" alt="Samsung">
+                <img src="images/logos/keurig.png" alt="Keurig">
+                <img src="images/logos/playstation.png" alt="PlayStation">
+                <img src="images/logos/xbox.png" alt="Xbox">
+                <img src="images/logos/nielsen.png" alt="Nielsen">
+                <img src="images/logos/iri.png" alt="IRI">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>My journey began at Walmart during their bold pivot to customer-centric branding—chasing Amazon and reimagining stores as experiences. This sparked a thrilling journey through agencies and SaaS, where I've pioneered ideas that blend tech, partnerships, and CX to create real impact.</p>
+            <p>From inventing DMaaS to self-teaching 3D modeling, I've turned strategic visions into executable growth for Fortune 100 clients like Walmart, Amazon, and Teleperformance.</p>
+            <p>Throughout, I've lived by the mantra: Start with CX and work backwards—delivering sustained growth, client retention, and market disruption.</p>
+            <h2>Core Competencies</h2>
+            <table class="core-table">
+                <thead>
+                    <tr>
+                        <th>Leadership & Strategy</th>
+                        <th>Sales & Growth</th>
+                        <th>Technical & Operations</th>
+                        <th>Industry Expertise</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Strategic Account Growth</td>
+                        <td>Enterprise Sales</td>
+                        <td>Product Roadmaps</td>
+                        <td>SaaS Solutions</td>
+                    </tr>
+                    <tr>
+                        <td>Executive Stakeholder Engagement</td>
+                        <td>Business Development</td>
+                        <td>Agile/Scrum Delivery</td>
+                        <td>BPO/CX Outsourcing</td>
+                    </tr>
+                    <tr>
+                        <td>P&L Ownership</td>
+                        <td>Revenue Expansion</td>
+                        <td>AI/ML Automation</td>
+                        <td>Retail Media Networks</td>
+                    </tr>
+                    <tr>
+                        <td>Go-to-Market Strategy</td>
+                        <td>Complex Deal Cycles (MEDDIC)</td>
+                        <td>API Integrations</td>
+                        <td>Omnichannel Strategy</td>
+                    </tr>
+                    <tr>
+                        <td>Digital Transformation Leadership</td>
+                        <td></td>
+                        <td></td>
+                        <td>Programmatic Advertising</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2>Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <img src="images/company-logos/wovenmedia.png" alt="Wovenmedia Logo" class="company-logo">
+                    <h3><span class="job-title">Director of Client Leadership / Head of Strategic Client Growth</span> <span class="company">Wovenmedia</span> <span class="dates">May 2021 – Present</span></h3>
+                    <p>Brought in to manage Sam's Club remodels, generating $2M one-time revenue and building the Customer Success team. Drove Android adoption (expanding from BrightSign-only), piloted concepts like Sip n Shop and Electronics pallet trains, and forged partnerships with Product Connections ($4-5M projected 2026) and Amazon/Teleperformance—inventing DMaaS to integrate BPO/CX, leading to RFP inclusions and ongoing scopes.</p>
+                    <ul>
+                        <li>Spearheaded national retail media scaling, closing $5.5M in annual recurring revenue, expanding into Sam’s Club and Fortune 100 retailers, and deploying 7,200+ digital endpoints with 99%+ uptime.</li>
+                        <li>Exceeded 2024 P&L by $2M via labor optimization, vendor negotiations, and AI-driven automation reducing manual effort by 35%.</li>
+                        <li>Launched Power BI analytics suite and self-service dashboard, enabling programmatic ad analysis, operational planning, and omnichannel monitoring for executive insights.</li>
+                        <li>Forged Amazon and Teleperformance partnerships, co-creating DMaaS model to unlock BPO/CX licensing and white-label revenue streams.</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <img src="images/company-logos/sonoco.png" alt="Sonoco Logo" class="company-logo">
+                    <h3><span class="job-title">Strategic Account Manager</span> <span class="company">Sonoco Display & Packaging</span> <span class="dates">Mar 2018 – May 2021</span></h3>
+                    <p>Pioneered white sample creative reviews with Advantage Sales, refined via self-taught 3D modeling in Adobe Dimension/Sketchfab for faster approvals. Scaled Walmart revenue 20x, closed $14M deals, and orchestrated Keurig's largest Black Friday activation.</p>
+                    <ul>
+                        <li>Closed $14M in enterprise new business with Walmart and Albertsons, owning full deal lifecycle from RFP to negotiation, contract execution, and program launch.</li>
+                        <li>Scaled Walmart revenue 20x+ over two years (from $200K to $4M), delivering 1,050% YoY growth in year one and 74% in year two through strategic account expansion.</li>
+                        <li>Secured $8M omnichannel marketing contract with Albertsons, expanding Sonoco's enterprise footprint and establishing it as a key strategic retail partner.</li>
+                        <li>Built and managed $20M+ qualified pipeline with 90%+ forecast accuracy, driving consistent revenue delivery and enterprise opportunity realization.</li>
+                        <li>Led Walmart's largest in-store activation (Keurig Black Friday), orchestrating national execution in 2018-2019 and setting benchmarks for scale, impact, and operational excellence.</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <img src="images/company-logos/mars-agency.png" alt="The Mars Agency Logo" class="company-logo">
+                    <h3><span class="job-title">Account/Operations Lead, Client Leadership</span> <span class="company">The Mars Agency</span> <span class="dates">Aug 2014 – Nov 2017</span></h3>
+                    <p>Co-authored Walmart's first Customer Journey curriculum with GCIA, synthesizing primary/secondary research into seasonal insights. Streamlined global creative planning, identified unused budgets through audits, and managed $50M+ portfolio for brands like Campbell’s, T-Mobile, and Samsung.</p>
+                    <ul>
+                        <li>Directed Walmart Associate Marketing and GCIA initiatives, including Happy To Help program development; managed full P&L, forecasting, and executive reporting for enterprise-scale operations.</li>
+                        <li>Oversaw $50M+ Bentonville portfolio (Campbell’s, T-Mobile, Samsung, Walmart, Sam’s Club), enforcing financial governance, strategic prioritization, and cross-category marketing impact.</li>
+                        <li>Co-authored Walmart’s inaugural Customer Journey framework, defining shopper segments, trip types, barriers, and behaviors—adopted enterprise-wide as the foundation for marketing strategy.</li>
+                        <li>Partnered with Walmart’s GCIA to elevate internal advisory role, authoring brand guides and synthesizing Nielsen/IRI insights into executive deliverables for Marketing and Merchandising.</li>
+                        <li>Implemented enterprise resource governance across business units using 30/60/90 forecasting and Agile tools (Jira/Confluence), reducing turnaround times by 22% and enhancing transparency.</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <img src="images/company-logos/mosaic.png" alt="Mosaic North America Logo" class="company-logo">
+                    <h3><span class="job-title">Manager, Client Services</span> <span class="company">Mosaic North America</span> <span class="dates">Feb 2012 – Jul 2013</span></h3>
+                    <p>Spearheaded video game release programs, attending E3 to collaborate with publishers like Sony, EA Sports, Take-Two, and Disney. Authored install guides, managed executions, and delivered post-analytics on sales lift.</p>
+                    <ul>
+                        <li>Directed in-store merchandising for Walmart’s Video Game category, aligning publisher ROI with retailer sales goals to drive measurable category growth and revenue uplift.</li>
+                        <li>Forged strategic partnerships with Sony, EA Sports, Take-Two Interactive, and Disney, providing thought leadership, activation strategies, and cross-functional planning to strengthen relationships.</li>
+                        <li>Authored field deployment manuals for signage, merchandising, and events, ensuring consistency, compliance, and success across hundreds of Walmart promotional activations.</li>
+                        <li>Led program budget management, achieving margin targets, profitability, and disciplined accounts receivable oversight for large-scale merchandising initiatives.</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <img src="images/company-logos/walmart.png" alt="Walmart Logo" class="company-logo">
+                    <h3><span class="job-title">Strategic Sourcing Marketing Consultant</span> <span class="company">Walmart</span> <span class="dates">Feb 2011 – Feb 2012</span></h3>
+                    <p>Founding member of first Vendor Management team, architecting RFP processes, capabilities portal (Aprimo-powered), and negotiations saving $5.6M annually.</p>
+                    <ul>
+                        <li>Served as founding member of Walmart Marketing’s first Vendor Management team, architecting sourcing strategies and contract governance frameworks to establish enterprise standards.</li>
+                        <li>Co-developed and launched Aprimo-powered vendor capabilities portal, centralizing evaluation, benchmarking, and governance for the marketing supplier ecosystem.</li>
+                        <li>Negotiated contracts yielding $5.6M in annual recurring savings, enhancing vendor accountability, cost reductions, and long-term partner performance.</li>
+                        <li>Directed enterprise RFP processes across Marketing, Creative, Private Label Packaging, and Brand Activation, aligning vendors with strategic growth and operational priorities.</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <img src="images/company-logos/walmart.png" alt="Walmart Logo" class="company-logo">
+                    <h3><span class="job-title">Marketing Manager, Customer Experience Division</span> <span class="company">Walmart</span> <span class="dates">Dec 2008 – Jan 2011</span></h3>
+                    <p>Selected as 1 of 7 PMs to launch inaugural division, standardizing signage, designing modular packages to cut waste based on store footprints, and liaising with vendors like PlayStation/Xbox for unified resets.</p>
+                    <ul>
+                        <li>Selected as 1 of 7 PMs (from 40+) to launch Walmart’s inaugural Customer Experience Division, integrating marketing, floor planning, merchandising, and fixturing into a national strategy.</li>
+                        <li>Standardized brand-led signage nationwide, eliminating fragmented displays and laying the groundwork for Walmart’s modern, cohesive shopper experience.</li>
+                        <li>Directed Electronics May Modular Reset, designing kitting macros aligned to store schematics to minimize waste, cut costs, and boost execution accuracy across thousands of locations.</li>
+                        <li>Acted as strategic liaison between vendors (PlayStation, Xbox, major CPGs) and internal teams, ensuring unified brand identity in national resets.</li>
+                        <li>Led multi-category signage programs (Entertainment, Toys, Books, Electronics), aligning communications with Walmart’s shift to a data-driven, customer-centric retail model.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="innovations" class="innovations">
+        <div class="container">
+            <h2>Innovations & Projects</h2>
+            <div class="grid">
+                <div class="card">
+                    <i class="fas fa-robot"></i>
+                    <h3>LeadForge AI</h3>
+                    <p>Architected Python/Flask-based platform with Flutter UI, CrewAI agents, and Serper integration for real-time retail media intelligence. Implemented memory graphs and filtering to score opportunities, map influencers, and integrate LinkedIn profiling with PowerBI dashboards. Accelerated pipelines by automating research and aligning with enterprise strategies, outperforming traditional CRMs like HubSpot/Salesforce.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>DMaaS Invention</h3>
+                    <p>Invented Digital Media as a Service for Teleperformance, blending digital media with BPO to capture more retail client pie—leading to strategic RFP partnerships.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-gamepad"></i>
+                    <h3>E3-Driven Game Launches</h3>
+                    <p>Transformed expo insights into Walmart activations, introducing novel merchandising strategies that elevated publisher ROI through creative in-store experiences.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-drafting-compass"></i>
+                    <h3>3D Modeling Process</h3>
+                    <p>Pioneered 3D reviews with Adobe Dimension for faster POP display approvals.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-map"></i>
+                    <h3>Customer Journey Framework</h3>
+                    <p>Co-authored Walmart's inaugural framework, defining shopper behaviors enterprise-wide.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-globe"></i>
+                    <h3>UN Sustainability Project</h3>
+                    <p>Led trinational team for monarch butterfly migration education, engaging 10,000+ students.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skill-grid">
+                <div>
+                    <h3>Leadership & Strategy</h3>
+                    <ul>
+                        <li>Strategic Account Growth</li>
+                        <li>Executive Stakeholder Engagement</li>
+                        <li>P&L Ownership</li>
+                        <li>Go-to-Market Strategy</li>
+                        <li>Digital Transformation Leadership</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Sales & Growth</h3>
+                    <ul>
+                        <li>Enterprise Sales</li>
+                        <li>Business Development</li>
+                        <li>Revenue Expansion</li>
+                        <li>Complex Deal Cycles (MEDDIC)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Technical & Operations</h3>
+                    <ul>
+                        <li>Product Roadmaps</li>
+                        <li>Agile/Scrum Delivery</li>
+                        <li>AI/ML Automation</li>
+                        <li>API Integrations</li>
+                        <li>3D Modeling (Adobe Dimension)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Industry Expertise</h3>
+                    <ul>
+                        <li>SaaS Solutions</li>
+                        <li>BPO/CX Outsourcing</li>
+                        <li>Retail Media Networks</li>
+                        <li>Omnichannel Strategy</li>
+                        <li>Programmatic Advertising</li>
+                    </ul>
+                </div>
+            </div>
+            <p>Tools: Salesforce, Power BI, Tableau, Excel (Advanced), Jira, Confluence, Google Workspace, Microsoft 365, Slack, Python/Flask.</p>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <div class="container">
+            <h2>Education</h2>
+            <p>Bachelor of Science, International Business <span>Arkansas State University, 2003 – 2007</span></p>
+            <p>Global Internship, International Business <span>Universidad de Monterrey, 2007</span></p>
+            <p>Senior Project Developer <span>United Nations, Comité Norté, Feb – Jun 2007</span></p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: walls.drew@gmail.com | Phone: (479) 936-0114 | LinkedIn: <a href="https://linkedin.com/in/drewwalls">linkedin.com/in/drewwalls</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Drew Walls. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        const sections = document.querySelectorAll('section');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+        sections.forEach(section => observer.observe(section));
+    </script>
+</body>
+</html>

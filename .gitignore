@@ -1,0 +1,12 @@
+node_modules/
+.env
+.DS_Store
+portfolio-next/
+backup_*/
+master_backup_*/
+*.bak
+*.broken
+.next/
+test-formspree.html
+activate-form.html
+.git/
